@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>What's For Dinner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Side Menu Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Side Menu -->
+  <aside class="side-menu" id="sideMenu">
+    <div class="side-menu-header">
+      <h2>What's For Dinner</h2>
+      <button class="close-menu" id="closeMenuBtn">&times;</button>
+    </div>
+
+    <nav class="side-menu-nav">
+      <a href="#" class="side-link">
+        <span class="icon">🔖</span>
+        Saved Recipes
+      </a>
+      <a href="#" class="side-link">
+        <span class="icon">⏱</span>
+        Recent
+      </a>
+      <a href="#" class="side-link">
+        <span class="icon">⚙️</span>
+        Settings
+      </a>
+      <a href="#" class="side-link profile-link">
+        <img src="https://i.pravatar.cc/40" alt="Profile" class="profile-img">
+        <span>Profile</span>
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Main Page -->
+  <div class="app">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-icon">
+          <span>🍽️</span>
+        </div>
+        <div class="brand-text">
+          <h1>What's For Dinner</h1>
+          <p>Your daily meal inspiration</p>
+        </div>
+      </div>
+
+      <button class="menu-btn" id="openMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <!-- Recipe Card -->
+    <main class="recipe-card">
+      <!-- Recipe Image + rating -->
+      <div class="recipe-image-wrapper">
+        <img id="mealImage" src="" alt="Meal" class="recipe-image" />
+
+        <div class="rating-pill">
+          <span class="star">⭐</span>
+          <span id="mealRating">4.8</span>
+          <span class="reviews" id="mealReviews">(234 reviews)</span>
+        </div>
+
+        <div class="time-bar">
+          <div class="time-item">
+            <div class="time-icon">⏱</div>
+            <span class="time-label">Prep Time</span>
+            <span class="time-value" id="mealPrepTime">15 min</span>
+          </div>
+          <div class="time-item">
+            <div class="time-icon">🔥</div>
+            <span class="time-label">Cook Time</span>
+            <span class="time-value" id="mealCookTime">20 min</span>
+          </div>
+          <div class="time-item">
+            <div class="time-icon">👥</div>
+            <span class="time-label">Servings</span>
+            <span class="time-value" id="mealServings">4 people</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info / Content -->
+      <section class="recipe-content">
+        <div class="top-row">
+          <div class="tags">
+            <span class="tag tag-easy" id="mealDifficulty">Easy</span>
+            <span class="tag tag-cuisine" id="mealCuisine">Italian</span>
+          </div>
+
+          <div class="actions">
+            <button class="icon-btn" title="Save recipe">
+              🔖
+            </button>
+            <button class="icon-btn" title="Share recipe">
+              🔗
+            </button>
+          </div>
+        </div>
+
+        <h2 class="meal-title" id="mealTitle">Creamy Spaghetti Carbonara</h2>
+        <p class="meal-description" id="mealDescription">
+          A classic Italian pasta dish with eggs, cheese, and pancetta.
+        </p>
+
+        <!-- Tabs -->
+        <div class="tabs">
+          <button class="tab active" data-tab="ingredients">Ingredients</button>
+          <button class="tab" data-tab="instructions">Instructions</button>
+          <button class="tab" data-tab="nutrition">Nutrition</button>
+          <button class="tab" data-tab="tips">Chef's Tips</button>
+        </div>
+
+        <!-- Tabs Content --><div class="tab-content" id="tab-ingredients"></div>
+        <div class="tab-content hidden" id="tab-instructions"></div>
+        <div class="tab-content hidden" id="tab-nutrition"></div>
+        <div class="tab-content hidden" id="tab-tips"></div>
+
+        <!-- Button -->
+        <button class="random-btn" id="randomBtn">
+          ⟳ Try Another Recipe
+        </button>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
