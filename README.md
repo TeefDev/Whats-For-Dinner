@@ -29,4 +29,4 @@ HTML5 • CSS3 • JavaScript • GitHub Pages
 ---
 
 ## 👩‍💻 Developer  
-Teef Karyry — TeefDev
+Teef M. Karyry — TeefDev
