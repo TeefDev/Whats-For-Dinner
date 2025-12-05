@@ -16,7 +16,8 @@ The app focuses on clarity, simplicity, and performance — ensuring smooth navi
 
 ---
 
-## 🖼️ Photo  
+## 🖼️ Photo 
+![Screenshot 1](4.jpg)
 ![Screenshot 1](1.jpg)
 ![Screenshot 2](2.jpg)
 ![Screenshot 3](3.jpg)
