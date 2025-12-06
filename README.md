@@ -1,33 +1,48 @@
-  # 🍽️ What's For Dinner?
+## What’s For Dinner — Responsive Recipe & Meal Suggestion App
 
-A clean, structured, and fully responsive web application designed to deliver a seamless user experience.  
-This project demonstrates strong front-end development skills, UI/UX awareness, and the ability to create functional, modern interfaces using pure HTML, CSS, and JavaScript.
+What’s For Dinner is a clean, structured, and fully responsive web application built using pure HTML, CSS, and JavaScript.
+The project serves as a demonstration of front-end development skills, including UI organization, dynamic content generation, and modern interface design without relying on external frameworks.
 
-The app focuses on clarity, simplicity, and performance — ensuring smooth navigation, aesthetic visuals, and consistent behavior across all devices.
+The application focuses on simplicity and performance, offering users an intuitive experience with clear visuals, smooth navigation, and consistent behavior across devices.
 
----
 
-## 🔥 Core Strengths Demonstrated
-- Clean, semantic HTML layout
-- Well-organized and scalable CSS architecture
-- Efficient vanilla JavaScript logic for dynamic content
-- Professional Git/GitHub workflow & deployment
-- Strong understanding of UI/UX and responsive design
+## Project Overview
 
----
+This project provides a minimal yet functional interface for displaying recipes and meal suggestions.
+Its goal is to explore essential front-end concepts such as:
+ • Clean code structure
+ • Separation of concerns between HTML, CSS, and JavaScript
+ • Building interactive components without libraries
+ • Managing UI states and dynamic content updates
 
-## 🖼️ Photo 
-![Screenshot 1](4.jpg)
-![Screenshot 1](1.jpg)
-![Screenshot 2](2.jpg)
-![Screenshot 3](3.jpg)
+The application is designed with an emphasis on readability, user flow, and responsive scaling for mobile and desktop views.
 
----
 
-## 🛠️ Technologies  
-HTML5 • CSS3 • JavaScript • GitHub Pages
+## Project Preview
 
----
+![Preview 1](4.jpg)
+![Preview 2](1.jpg)
+![Preview 3](2.jpg)
+![Preview 4](3.jpg)
 
-## 👩‍💻 Developer  
-Teef M. Karyry — TeefDev
+
+## Core Strengths Demonstrated
+
+ • Clean and semantic HTML layout that supports accessibility and structure
+ • Well-organized CSS architecture with scalable class naming and responsive design techniques
+ • Efficient vanilla JavaScript used to handle dynamic meal content and user interactions
+ • Professional use of Git and GitHub for version control and deployment
+ • Strong understanding of UI/UX principles, spacing, typography, and layout balance
+
+
+## Technologies Used
+
+ • HTML5
+ • CSS3
+ • JavaScript (Vanilla)
+ • GitHub Pages for deployment
+
+
+## Developer
+
+Teef Mohammed Karyry — TeefDev
