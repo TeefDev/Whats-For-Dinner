@@ -45,4 +45,4 @@ The application is designed with an emphasis on readability, user flow, and resp
 
 ## Developer
 
-Teef Mohammed Karyry — TeefDev
+Teef M. Karyry — TeefDev
