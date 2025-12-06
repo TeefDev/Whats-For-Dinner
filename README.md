@@ -26,6 +26,27 @@ The application is designed with an emphasis on readability, user flow, and resp
 ![Preview 4](3.jpg)
 
 
+## Key Future 
+
+To expand the functionality and elevate the user experience, the following improvements are planned for future versions of What’s For Dinner:
+##  • API-Powered Recipes
+Integrate external recipe APIs to provide real, diverse, and personalized meal suggestions.
+##  • Advanced Search & Filtering
+Add filters for categories, preparation time, difficulty, and dietary preferences such as vegan, keto, or gluten-free.
+##  • Weekly Meal Planner
+Introduce a dedicated planner that allows users to organize meals for the entire week.
+##  • Favorites & Saved Recipes
+Allow users to bookmark and store recipes locally using localStorage or a backend system.
+##  • User-Submitted Recipes
+Provide the option for users to upload their own recipes with images and instructions.
+##  • Interactive Ingredient Checklists
+Add editable ingredient lists with “checked/unchecked” states for easier cooking guidance.
+##  • Dark Mode Support
+Include a theme toggle for improved accessibility and user customization.
+##  • Backend Integration for User Profiles
+Expand into a full-stack version with authentication, user accounts, and personalized recipe recommendations.
+
+
 ## Core Strengths Demonstrated
 
  • Clean and semantic HTML layout that supports accessibility and structure
