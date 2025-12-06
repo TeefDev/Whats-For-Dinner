@@ -26,7 +26,7 @@ The application is designed with an emphasis on readability, user flow, and resp
 ![Preview 4](3.jpg)
 
 
-## Key Future 
+## Key Features
 
 To expand the functionality and elevate the user experience, the following improvements are planned for future versions of What’s For Dinner:
 ##  • API-Powered Recipes
